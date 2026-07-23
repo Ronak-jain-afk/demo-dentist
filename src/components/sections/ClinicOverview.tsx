@@ -31,14 +31,14 @@ export function ClinicOverview() {
             </div>
             
             <div 
-              className="absolute top-1/2 -translate-y-1/2 -left-6 lg:-left-8 bg-[#0a192f] text-white w-48 h-48 rounded-full shadow-2xl flex flex-col items-center justify-center text-center p-6 border-8 border-background z-10"
+              className="absolute top-1/2 -translate-y-1/2 -left-2 sm:-left-6 lg:-left-8 bg-[#0a192f] text-white w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full shadow-2xl flex flex-col items-center justify-center text-center p-3 sm:p-4 md:p-6 border-4 md:border-8 border-background z-10"
             >
-              <div className="mb-3">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <div className="mb-1 md:mb-3">
+                <svg className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 22S8 20 8 15V8l4-4 4 4v7c0 5-4 7-4 7z" />
                 </svg>
               </div>
-              <div className="font-semibold text-sm leading-tight">
+              <div className="font-semibold text-[10px] sm:text-xs md:text-sm leading-tight">
                 State-of-the-Art<br/>Technology
               </div>
             </div>
