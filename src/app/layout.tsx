@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${outfit.className} bg-background text-foreground antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${outfit.className} bg-background text-foreground antialiased`} suppressHydrationWarning>
         <SmoothScrollProvider>
           {children}
         </SmoothScrollProvider>
