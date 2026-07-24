@@ -1,6 +1,8 @@
 # Clarity Dental
 
-A premium, state-of-the-art dental clinic landing page built with modern web technologies. 
+A premium, state-of-the-art dental clinic landing page built with modern web technologies.
+
+**Live Preview:** [https://claritydental-alpha.vercel.app/](https://claritydental-alpha.vercel.app/)
 
 ## Tech Stack
 - **Framework**: Next.js (App Router)
